@@ -71,7 +71,7 @@ export function ScopeOfWork() {
           <ScopeItem>Implementation of all approved designs across 6 pages</ScopeItem>
           <ScopeItem>Integration of new content and visual assets</ScopeItem>
           <ScopeItem>Restoration of original layout and typography</ScopeItem>
-          <ScopeItem>Responsiveness: desktop, tablet, mobile</ScopeItem>
+          <ScopeItem>Responsiveness: desktop, mobile</ScopeItem>
         </ScopeCard>
         <ScopeCard label="Development — Not Included" title="Out of Scope" excluded>
           <ScopeItem excluded>Backend development</ScopeItem>
