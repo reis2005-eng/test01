@@ -8,19 +8,19 @@ export function DeliveryPhases() {
         <Phase 
           number="01" 
           title="4 Static Images" 
-          description="First batch of static visual assets for review and approval"
+          description="First batch of visual assets — content refresh and design restoration for initial pages"
           isLast={false}
         />
         <Phase 
           number="02" 
           title="4 Static Images" 
-          description="Second batch of static assets — triggers 40% milestone payment"
+          description="Second batch of assets with typography and layout corrections — triggers 40% milestone"
           isLast={false}
         />
         <Phase 
           number="03" 
           title="4 Dynamic Images" 
-          description="Animated and motion-based visual assets — final design phase"
+          description="Animated and motion-based assets — final design phase before development begins"
           isLast={true}
         />
       </div>

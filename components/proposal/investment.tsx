@@ -24,7 +24,7 @@ export function Investment() {
         <tbody>
           <tr>
             <td className="px-5 py-4 text-[0.88rem] border-b border-rule align-top">
-              Design — 12 images (static + dynamic), 2 revision rounds each
+              Design — 6 pages, 12 visual assets, restoration of original design standards
             </td>
             <td className="px-5 py-4 font-mono text-[0.85rem] border-b border-rule align-top">46 hrs</td>
             <td className="px-5 py-4 font-mono text-[0.85rem] border-b border-rule align-top">$60/hr</td>
@@ -32,7 +32,7 @@ export function Investment() {
           </tr>
           <tr>
             <td className="px-5 py-4 text-[0.88rem] border-b border-rule align-top">
-              Development — implementation, content integration, responsiveness
+              Development — implementation across 6 pages, typography and layout corrections
             </td>
             <td className="px-5 py-4 font-mono text-[0.85rem] border-b border-rule align-top">36 hrs</td>
             <td className="px-5 py-4 font-mono text-[0.85rem] border-b border-rule align-top">$60/hr</td>

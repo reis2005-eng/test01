@@ -16,10 +16,10 @@ export function ScopeOfWork() {
       <div className="bg-highlight border border-rule p-8 mb-6">
         <h3 className="font-serif text-[1.2rem] font-bold text-ink mb-4">Project Overview</h3>
         <p className="text-[0.9rem] text-ink leading-relaxed mb-4">
-          This project covers the update of <strong>6 pages</strong> of content across the TrustWise website. The existing menu structure with <strong>8 segments</strong> (Product, Solutions, etc.) will remain the same, but the content will be refreshed and new images will be added.
+          This project includes the update of <strong>six (6) pages</strong> on the TrustWise website. The existing navigation structure, composed of <strong>eight main sections</strong> (e.g., Product, Solutions), will remain unchanged. The scope focuses on refreshing the content of these pages and incorporating new visual assets (images), while preserving the current architecture.
         </p>
         <p className="text-[0.9rem] text-ink leading-relaxed">
-          The goal is to restore and apply the <strong>original visual layout</strong> your team had designed — correcting fonts, spacing, and layout inconsistencies introduced by previous modifications — while integrating all new content and imagery.
+          Additionally, the project aims to <strong>restore and reapply the original visual design standards</strong> previously defined by your team. This includes correcting inconsistencies in typography, spacing, and layout introduced by prior modifications, ensuring a cohesive and high-quality user experience across all updated pages.
         </p>
       </div>
 
@@ -56,11 +56,11 @@ export function ScopeOfWork() {
 
       {/* Scope Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-rule border border-rule mt-px">
-        <ScopeCard label="Design — Included" title="Visual Redesign">
-          <ScopeItem>Redesign of all 12 website images</ScopeItem>
-          <ScopeItem>Up to 2 revision rounds per image</ScopeItem>
-          <ScopeItem>Layout, color, and typography adjustments</ScopeItem>
-          <ScopeItem>Minor content repositioning</ScopeItem>
+        <ScopeCard label="Design — Included" title="Visual Update & Restoration">
+          <ScopeItem>Update of 6 pages with new content and images</ScopeItem>
+          <ScopeItem>Restoration of original visual design standards</ScopeItem>
+          <ScopeItem>Typography, spacing, and layout corrections</ScopeItem>
+          <ScopeItem>Up to 2 revision rounds per deliverable</ScopeItem>
         </ScopeCard>
         <ScopeCard label="Design — Not Included" title="Out of Scope" excluded>
           <ScopeItem excluded>Full concept changes after approval</ScopeItem>
@@ -68,8 +68,9 @@ export function ScopeOfWork() {
           <ScopeItem excluded>Copywriting or content creation</ScopeItem>
         </ScopeCard>
         <ScopeCard label="Development — Included" title="Implementation">
-          <ScopeItem>Implementation of all approved images</ScopeItem>
-          <ScopeItem>Integration of client-provided content</ScopeItem>
+          <ScopeItem>Implementation of all approved designs across 6 pages</ScopeItem>
+          <ScopeItem>Integration of new content and visual assets</ScopeItem>
+          <ScopeItem>Restoration of original layout and typography</ScopeItem>
           <ScopeItem>Responsiveness: desktop, tablet, mobile</ScopeItem>
         </ScopeCard>
         <ScopeCard label="Development — Not Included" title="Out of Scope" excluded>
