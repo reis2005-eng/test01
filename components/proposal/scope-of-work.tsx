@@ -12,6 +12,17 @@ export function ScopeOfWork() {
       </div>
       
       <Section number="01" title="Scope of Work">
+      {/* Project Overview */}
+      <div className="bg-highlight border border-rule p-8 mb-6">
+        <h3 className="font-serif text-[1.2rem] font-bold text-ink mb-4">Project Overview</h3>
+        <p className="text-[0.9rem] text-ink leading-relaxed mb-4">
+          This project covers the update of <strong>6 pages</strong> of content across the TrustWise website. The existing menu structure with <strong>8 segments</strong> (Product, Solutions, etc.) will remain the same, but the content will be refreshed and new images will be added.
+        </p>
+        <p className="text-[0.9rem] text-ink leading-relaxed">
+          The goal is to restore and apply the <strong>original visual layout</strong> your team had designed — correcting fonts, spacing, and layout inconsistencies introduced by previous modifications — while integrating all new content and imagery.
+        </p>
+      </div>
+
       {/* Image Breakdown */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-rule border border-rule">
         <div className="bg-paper p-7">
